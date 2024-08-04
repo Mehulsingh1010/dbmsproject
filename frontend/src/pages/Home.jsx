@@ -1,6 +1,9 @@
 import React from "react";
 import img1 from "../components/logo.png";
 import img2 from "../components/hero section.jpeg";
+
+import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <div className="overflow-y-hidden">
@@ -48,12 +51,14 @@ const Home = () => {
               </ul>
             </div>
             <div className="flex">
-              <div className=" flex mt-6">
+              <Link to="/result"><div className=" flex mt-6">
                 Try our Analyzing Systems now !
-                <button className="h-[50px] w-[150px] ml-[-255px] mt-[42px] border-2 border-gray-700 bg-black text-white font-semibold uppercase rounded-lg py-2 px-4 transition-colors duration-300 hover:bg-gray-700 hover:border-white hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white">
-                  Click Here
-                </button>
-              </div>
+                
+                  <button className="h-[50px] w-[150px] ml-[-255px] mt-[42px] border-2 border-gray-700 bg-black text-white font-semibold uppercase rounded-lg py-2 px-4 transition-colors duration-300 hover:bg-gray-700 hover:border-white hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white">
+                    Click Here
+                  </button>
+                
+              </div></Link>
               <div className="h-[100px] w-[200px] ml-[250px] mt-[30px]">
                 <img src={img1} alt="" />
               </div>
