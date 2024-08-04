@@ -10,7 +10,7 @@ const ResultAnalysis = () => {
   const [error, setError] = useState('');
 
   const addSubject = () => {
-    setSubjects([...subjects, { subject_name: '', max_marks: 0, scored_marks: 0 }]);
+    setSubjects([...subjects, { subject_name: '', max_marks: "", scored_marks: "" }]);
     // Clear previous results, overall data, and error when adding a subject
     setResults([]);
     setOverall({ percentage: 0, grade: '' });

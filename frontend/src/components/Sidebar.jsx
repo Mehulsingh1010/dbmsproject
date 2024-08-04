@@ -7,12 +7,30 @@ import logo from "./sidelogo.png";
 
 const Sidebar = () => {
   const [isSidebarClosed, setIsSidebarClosed] = useState(true);
-  const [isDarkMode, setIsDarkMode] = useState(false);
-  const location = useLocation(); // Get the current path
+  const [isDarkMode, setIsDarkMode] = useState(true);
+  const location = useLocation();
 
   useEffect(() => {
     document.body.classList.toggle("dark", isDarkMode);
+    localStorage.setItem("darkMode", JSON.stringify(isDarkMode));
   }, [isDarkMode]);
+
+  useEffect(() => {
+    const savedDarkMode = JSON.parse(localStorage.getItem("darkMode"));
+    if (savedDarkMode !== null) {
+      setIsDarkMode(savedDarkMode);
+    }
+  }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (event.target.closest(".sidebar") === null) {
+        setIsSidebarClosed(true);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
   const handleToggleSidebar = () => {
     setIsSidebarClosed((prev) => !prev);
@@ -47,13 +65,13 @@ const Sidebar = () => {
       </header>
       <div className="menu-bar">
         <div className="menu">
-        <li className="search-box" onClick={handleSearchClick}>
-  <i
-    className="bx bx-search icon"
-    style={{ color: isDarkMode ? 'white' : 'black' }}
-  ></i>
-  <input type="text" placeholder="Find more" />
-</li>
+          <li className="search-box" onClick={handleSearchClick}>
+            <i
+              className="bx bx-search icon"
+              style={{ color: isDarkMode ? 'white' : 'black' }}
+            ></i>
+            <input type="text" placeholder="Find more" />
+          </li>
 
           <ul className="menu-links">
             <li
@@ -108,26 +126,25 @@ const Sidebar = () => {
             </Link>
           </li>
           <li className="mode">
-  <div className="sun-moon">
-    <i
-      className={`bx bx-moon icon moon ${isDarkMode ? "hidden" : ""}`}
-      style={{ color: isDarkMode ? 'white' : 'black' }} // Moon icon color based on dark mode
-    ></i>
-    <i
-      className={`bx bx-sun icon sun ${isDarkMode ? "" : "hidden"}`}
-      style={{ color: isDarkMode ? 'black' : 'white' }} // Sun icon color based on dark mode
-    ></i>
-  </div>
-  <span
-    className={`mode-text text ${isDarkMode ? 'text-light' : 'text-dark'}`}
-  >
-    {isDarkMode ? "Light mode" : "Dark mode"}
-  </span>
-  <div className="toggle-switch" onClick={handleModeSwitch}>
-    <span className="switch"></span>
-  </div>
-</li>
-
+            <div className="sun-moon">
+              <i
+                className={`bx bx-moon icon moon ${isDarkMode ? "hidden" : ""}`}
+                style={{ color: isDarkMode ? 'white' : 'black' }}
+              ></i>
+              <i
+                className={`bx bx-sun icon sun ${isDarkMode ? "" : "hidden"}`}
+                style={{ color: isDarkMode ? 'black' : 'white' }}
+              ></i>
+            </div>
+            <span
+              className={`mode-text text ${isDarkMode ? 'text-light' : 'text-dark'}`}
+            >
+              {isDarkMode ? "Light mode" : "Dark mode"}
+            </span>
+            <div className="toggle-switch" onClick={handleModeSwitch}>
+              <span className="switch"></span>
+            </div>
+          </li>
         </div>
       </div>
     </nav>

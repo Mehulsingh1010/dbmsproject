@@ -28,9 +28,9 @@ const Login = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-[#1b16a2]">
+    <div className="flex items-center justify-center min-h-screen bg-[#111827]">
       <div className="h-[500px] bg-white p-8 rounded-xl shadow-lg w-full max-w-md">
-        <h2 className="text-3xl font-bold text-center mb-6 text-gray-800 dark:text-gray-100">Login</h2>
+        <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">Login</h2>
         <div className="flex justify-center mb-6">
           <div className="bg-gray-100 dark:bg-white p-2 rounded-full">
             <img src={img1} alt="User Icon" className="w-32 h-32" />

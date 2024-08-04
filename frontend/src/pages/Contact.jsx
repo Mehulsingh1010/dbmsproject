@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900 py-12 px-6 lg:px-12">
+    <div className="min-h-screen flex items-center justify-center bg-[#E0F7FA] dark:bg-gray-900 py-12 px-6 lg:px-12">
       <div className="flex flex-col lg:flex-row w-full max-w-7xl bg-white rounded-lg shadow-lg dark:bg-gray-800 overflow-hidden">
         {/* Left Side */}
         <div className="flex-1 p-8 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-300">

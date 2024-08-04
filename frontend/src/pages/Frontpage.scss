@@ -1,0 +1,9 @@
+/* Styles for hover animation */
+.group:hover .translate-x-2 {
+    transform: translateX(0.5rem); /* Move arrow slightly */
+  }
+  
+  .group .translate-x-2 {
+    transform: translateX(0); /* Initial state */
+  }
+  

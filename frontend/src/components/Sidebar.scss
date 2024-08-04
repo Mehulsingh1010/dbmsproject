@@ -9,18 +9,19 @@
   font-family: "Poppins", sans-serif;
   /* overflow-x: hidden; */
 }
+
 :root {
   /* Colors */
-  --body-color: #f5f5f5;
+  --body-color: #E0F7FA;
   --sidebar-color: #2c3e50; /* Darker shade for sidebar in light mode */
   --sidebar-color-dark: #1e1e1e; /* Darker shade for sidebar in dark mode */
   --primary-color: #3498db;
-  --primary-color-light: #ecf0f1;
-  --toggle-color: #ddd;
+  --primary-color-light: #E0F7FA;
+  --toggle-color: #E0F7FA;
   --text-color: #ecf0f1;
   --active-icon-color: #3498db;
-  --sidebar-border-color: #34495e; /* Sidebar border color */
-  --sidebar-border-color-dark: #2c2c2c; /* Darker border color for dark mode */
+  --sidebar-border-color: #34495e; 
+  --sidebar-border-color-dark: #2c2c2c; 
 }
 
 body {
