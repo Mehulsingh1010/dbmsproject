@@ -9,24 +9,18 @@
   font-family: "Poppins", sans-serif;
   /* overflow-x: hidden; */
 }
-
 :root {
-  /* ===== Colors ===== */
-  --body-color: #4f4ad0;
-  --sidebar-color: #f2f2f2; /* Light shade for sidebar in light mode */
+  /* Colors */
+  --body-color: #f5f5f5;
+  --sidebar-color: #2c3e50; /* Darker shade for sidebar in light mode */
   --sidebar-color-dark: #1e1e1e; /* Darker shade for sidebar in dark mode */
-  --primary-color: #695cfe;
-  --primary-color-light: #f6f5ff;
+  --primary-color: #3498db;
+  --primary-color-light: #ecf0f1;
   --toggle-color: #ddd;
-  --text-color: #707070;
-  --active-icon-color: #007bff; /* Blue color for active icon */
-  --sidebar-border-color: #dcdcdc; /* Sidebar border color */
+  --text-color: #ecf0f1;
+  --active-icon-color: #3498db;
+  --sidebar-border-color: #34495e; /* Sidebar border color */
   --sidebar-border-color-dark: #2c2c2c; /* Darker border color for dark mode */
-
-  /* ====== Transition ====== */
-  --tran-03: all 0.2s ease;
-  --tran-04: all 0.3s ease;
-  --tran-05: all 0.3s ease;
 }
 
 body {
@@ -105,6 +99,7 @@ body.dark {
   font-weight: 500;
   white-space: nowrap;
   opacity: 1;
+ 
 }
 .sidebar.close .text {
   opacity: 0;
@@ -325,4 +320,12 @@ body.dark .home .text {
 }
 body.dark .menu-links .nav-link.active .icon {
   color: var(--active-icon-color); /* Blue color for active icon in dark mode */
+}
+.mode-text {
+  &.text-dark {
+    color: black; // Dark text color for light mode
+  }
+  &.text-light {
+    color: white; // Light text color for dark mode
+  }
 }
