@@ -35,7 +35,7 @@ const Register = () => {
             <div className="h-[500px] bg-white p-8 rounded-xl shadow-lg w-full max-w-md">
                 <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">Register</h2>
                 <div className="flex justify-center mb-6">
-                    <img src={img1} alt="User Icon" className="w-32 h-32 rounded-full shadow-md" /> {/* Removed border */}
+                    <img src={img1} alt="User Icon" className="w-32 h-32 rounded-full shadow-md" />
                 </div>
                 <form onSubmit={handleSubmit} className="flex flex-col items-center">
                     <input
