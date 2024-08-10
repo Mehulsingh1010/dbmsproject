@@ -36,17 +36,16 @@ const About = () => {
               {/* Team Member Card 1 */}
               <div className="bg-[#F5F5F5] p-6 rounded-lg shadow-lg dark:bg-[#374151]">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="https://th.bing.com/th/id/OIP.d14ED9H9QeOn7Uka5EpxVwHaHa?rs=1&pid=ImgDetMain"
                   alt="Team Member"
                   className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-500"
                 />
                 <h3 className="text-xl font-semibold text-black dark:text-white mb-2">
-                  Jane Doe
+                  Mehul Singh
                 </h3>
-                <p className="text-gray-900 dark:text-gray-300">Lead Developer</p>
+                <p className="text-gray-900 dark:text-gray-300"> Developer</p>
                 <p className="mt-2 text-gray-800 dark:text-gray-400">
-                  Jane is a passionate developer with a knack for solving complex problems and creating user-friendly applications. She leads the development team with a focus on innovation and excellence.
-                </p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil id pariatur accusamus labore vero praesentium architecto recusandae, necessitatibus nisi asperiores laudantium error aspernatur sunt animi.                </p>
                 <div className="flex justify-center mt-4">
                   <a href="#" className="text-blue-500 mx-2">
                     <FaGithub size={20} />
@@ -62,17 +61,16 @@ const About = () => {
               {/* Team Member Card 2 */}
               <div className="bg-[#F5F5F5] p-6 rounded-lg shadow-lg dark:bg-[#374151]">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="https://th.bing.com/th/id/OIP.d14ED9H9QeOn7Uka5EpxVwHaHa?rs=1&pid=ImgDetMain"
                   alt="Team Member"
                   className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-500"
                 />
                 <h3 className="text-xl font-semibold text-black dark:text-white mb-2">
-                  John Smith
+                  Disha Gupta
                 </h3>
-                <p className="text-gray-900 dark:text-gray-300">UX/UI Designer</p>
+                <p className="text-gray-900 dark:text-gray-300">Developer</p>
                 <p className="mt-2 text-gray-800 dark:text-gray-400">
-                  John designs intuitive and engaging user experiences. With a keen eye for detail and a passion for design, he ensures our platform is visually appealing and easy to use.
-                </p>
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores saepe accusamus rem minima omnis atque, suscipit ipsam odio consequatur fuga alias perferendis, obcaecati magnam pariatur explicabo!                </p>
                 <div className="flex justify-center mt-4">
                   <a href="#" className="text-blue-500 mx-2">
                     <FaGithub size={20} />
@@ -88,17 +86,16 @@ const About = () => {
               {/* Team Member Card 3 */}
               <div className="bg-[#F5F5F5] p-6 rounded-lg shadow-lg dark:bg-[#374151]">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="https://th.bing.com/th/id/OIP.d14ED9H9QeOn7Uka5EpxVwHaHa?rs=1&pid=ImgDetMain"
                   alt="Team Member"
                   className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-500"
                 />
                 <h3 className="text-xl font-semibold text-black dark:text-white mb-2">
-                  Emily Johnson
+                  Parth Krishna 
                 </h3>
-                <p className="text-gray-900 dark:text-gray-300">Project Manager</p>
+                <p className="text-gray-900 dark:text-gray-300">Developer</p>
                 <p className="mt-2 text-gray-800 dark:text-gray-400">
-                  Emily oversees project progress and ensures everything runs smoothly. Her organizational skills and leadership keep the team on track and focused on delivering the best results.
-                </p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nemo, cum velit exercitationem voluptatem non neque. Vel beatae officia quasi sit culpa itaque dolore, facere eveniet.                </p>
                 <div className="flex justify-center mt-4">
                   <a href="#" className="text-blue-500 mx-2">
                     <FaGithub size={20} />
@@ -114,17 +111,16 @@ const About = () => {
               {/* Team Member Card 4 */}
               <div className="bg-[#F5F5F5] p-6 rounded-lg shadow-lg dark:bg-[#374151]">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="https://th.bing.com/th/id/OIP.d14ED9H9QeOn7Uka5EpxVwHaHa?rs=1&pid=ImgDetMain"
                   alt="Team Member"
                   className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-500"
                 />
                 <h3 className="text-xl font-semibold text-black dark:text-white mb-2">
-                  Michael Brown
+                  Anshika
                 </h3>
-                <p className="text-gray-900 dark:text-gray-300">Backend Developer</p>
+                <p className="text-gray-900 dark:text-gray-300">Developer</p>
                 <p className="mt-2 text-gray-800 dark:text-gray-400">
-                  Michael specializes in backend development, ensuring that our systems are robust and scalable. His expertise in server-side technologies helps us deliver a reliable platform.
-                </p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magnam amet inventore, obcaecati tempora dolorum corporis nostrum distinctio expedita harum, libero nobis reprehenderit nisi nam veritatis?                </p>
                 <div className="flex justify-center mt-4">
                   <a href="#" className="text-blue-500 mx-2">
                     <FaGithub size={20} />
@@ -140,17 +136,16 @@ const About = () => {
               {/* Team Member Card 5 */}
               <div className="bg-[#F5F5F5] p-6 rounded-lg shadow-lg dark:bg-[#374151]">
                 <img
-                  src="https://via.placeholder.com/150"
+                  src="https://th.bing.com/th/id/OIP.d14ED9H9QeOn7Uka5EpxVwHaHa?rs=1&pid=ImgDetMain"
                   alt="Team Member"
                   className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-blue-500"
                 />
                 <h3 className="text-xl font-semibold text-black dark:text-white mb-2">
-                  Sarah Lee
+                  Jhirish
                 </h3>
-                <p className="text-gray-900 dark:text-gray-300">Marketing Specialist</p>
+                <p className="text-gray-900 dark:text-gray-300">Developer</p>
                 <p className="mt-2 text-gray-800 dark:text-gray-400">
-                  Sarah manages our marketing efforts, working to increase our visibility and reach. Her skills in digital marketing and communication help us connect with students effectively.
-                </p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates odit fuga adipisci nostrum nemo delectus accusamus perferendis, exercitationem ad error explicabo quas possimus nisi laborum impedit.                </p>
                 <div className="flex justify-center mt-4">
                   <a href="#" className="text-blue-500 mx-2">
                     <FaGithub size={20} />
